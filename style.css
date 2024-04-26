@@ -1,0 +1,105 @@
+/* Write some CSS below */
+body {
+    background-image: url(images/fitness.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-size: 18px;
+    color: black;
+    font-family:"Roboto";
+
+}
+
+h1 {
+    font-family: "Roboto";
+    font-size: 35px ;
+    font-weight: 1000;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-size: 26px;
+    color:#64f3ac;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;   
+}
+
+.card-white {
+background-color: azure;
+border-radius: 10px;
+box-shadow: 0 10px 20px rgba (255, 255, 255, 0.5);
+margin: 20px 0;
+padding: 25px;
+text-align: center;
+}
+
+.img-circle {
+            
+border-radius: 50%;
+width: 200px;
+height: 200px;
+background-color : white;
+box-shadow: 0 10px 20px rgba 0,0,0,0.1;
+object-fit : cover
+} 
+
+.container {
+width: 700px;
+margin: 30px auto;
+}
+
+.btn-cyan {
+font-family: "Roboto";
+font-weight: 600;
+padding: 15px 30px;
+margin: 10px;
+background-color:#64f3ac;
+color: black;
+text-decoration: none;
+border-radius: 10px;
+border: none;
+transition: background-color 0.3s;
+}
+
+#introduction p {
+margin-bottom: 30px;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0;
+}
+
+.list-inline li {
+display: inline;
+}
+
+.list-inline i {
+    font-size: 60px;
+    color: black;
+    margin: 0 5px;
+}  
+
+.list-inline li i:hover {
+opacity: 0.5;
+}  
+
+.btn-cyan:hover {
+    background-color: gainsboro;
+ }  
+
+ .card-white h1 {
+    font-size: 24px; 
+    color: #333; 
+    transition: color 0.3s ease; 
+  }
+  
+  .card-white h1:hover {
+    color: gainsboro; 
+}
+
+
+ 
